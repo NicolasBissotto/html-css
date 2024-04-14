@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trabalhando com fontes externas">
+    <meta name="Author" content="Nicolas B.">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Morris' ;
+            src: url('fonts/MorrisRomanBlack.otf') (format(opentype));
+
+        @font-face {
+            font-family: 'GT regular';
+            src: url('fonts/MorrisRomanBlack.ttf') format(truetype);
+        }    
+            font-weight: normal;
+            font-style: normal;
+            /*Tipos de format()
+            - opentype (otf))
+            - truetype (ttf)
+            - embedded-opentype
+            - true-aat (Apple Advanced Typography)
+            - svg 
+            
+            */
+            
+        }
+        body{
+            font-family: 'Morris', Times, serif;
+        }
+        h1{
+            font-family: 'Morris', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dignissimos repellat harum aperiam nisi velit nihil enim eum. Praesentium mollitia voluptate aliquid magnam consequuntur numquam? Quis quas ipsa officiis explicabo!</p>
+
+</body>
+</html>

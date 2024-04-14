@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aprendendo sobre pseudo-classe">
+    <meta name="Author" content="Nicolas B.">
+    <title>Pseudo-classe</title>
+    <style>
+        div{
+            display: inline-block;
+            background-color: lightgray;
+            border: 1px solid black; /*O 1px é a área de largura, o solid é a área de estilo*/
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+        div:hover{ /*Os : são uma pseudo-classe*/
+            background-color: yellow; 
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+</body>
+</html>
